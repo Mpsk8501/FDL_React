@@ -1,0 +1,62 @@
+
+{
+    "imgUrl": "../../img/cards_img/5.png",
+    "id": "pizzaPlus5",
+    "time": 45,
+    "menuHeader": {
+      "title": "Пицца UFC",
+      "rating": 5,
+      "minPrice": 1200,
+      "category": "Пицца"},
+    "menu": [
+      {
+        "id": 1234,
+        "imgUrl": "../../img/cards_img_rest/1.png",
+        "title": "Ролл угорь стандарт6",
+        "itemPrice": 500,
+        "ingredients": "Рис, угорь, соус унаги, кунжут, водоросли нори.",
+        "maxScore": 9
+      },
+      {
+        "id": 4321,
+        "imgUrl": "../../img/cards_img_rest/2.png",
+        "title": "Ролл угорь стандарт5",
+        "itemPrice": 450,
+        "ingredients": "Рис, угорь, соус унаги, кунжут, водоросли нори.",
+        "maxScore": 5
+      },
+      {
+        "id": 4563,
+        "imgUrl": "../../img/cards_img_rest/3.png",
+        "title": "Ролл угорь стандарт4",
+        "itemPrice": 450,
+        "ingredients": "Рис, угорь, соус унаги, кунжут, водоросли нори.",
+        "maxScore": 5
+      },
+      {
+        "id": 4567,
+        "imgUrl": "../../img/cards_img_rest/4.png",
+        "title": "Ролл угорь стандарт3",
+        "itemPrice": 400,
+        "ingredients": "Рис, угорь, соус унаги, кунжут, водоросли нори.",
+        "maxScore": 8
+      },
+      {
+        "id": 6745,
+        "imgUrl": "../../img/cards_img_rest/5.png",
+        "title": "Ролл угорь стандарт2",
+        "itemPrice": 450,
+        "ingredients": "Рис, угорь, соус унаги, кунжут, водоросли нори.",
+        "maxScore": 8
+      },
+      {
+        "id": 5443,
+        "imgUrl": "../../img/cards_img_rest/6.png",
+        "title": "Ролл угорь стандарт1",
+        "itemPrice": 450,
+        "ingredients": "Рис, угорь, соус унаги, кунжут, водоросли нори.",
+        "maxScore": 3
+      }
+    ]
+  }
+

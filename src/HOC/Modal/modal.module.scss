@@ -1,0 +1,43 @@
+.modal{
+  .wrapper{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    z-index: 999;
+  }
+  .dialog{
+    z-index: 1000;
+    margin: auto;
+    max-width: 780px;
+    width: 95%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 40px 45px;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    h3{
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 42px;
+      margin: 0;
+    }
+    .close{
+      cursor: pointer;
+      padding: 0;
+      font-size: 50px;
+      line-height: 50px;
+      background: none;
+      border: none;
+    }
+  }
+
+
+}

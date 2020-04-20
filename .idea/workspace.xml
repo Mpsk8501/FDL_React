@@ -1,16 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7da83ae-1dc9-4032-aca0-a147c10ee309" name="Default Changelist" comment="" />
+    <list default="true" id="f7da83ae-1dc9-4032-aca0-a147c10ee309" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cards_img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cards_img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cards_img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cards_img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cards_img/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cards_img/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cards_img/Vector.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cards_img_rest/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cards_img_rest/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cards_img_rest/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cards_img_rest/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cards_img_rest/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cards_img_rest/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/hotpng.com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/shopping-cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/shopping-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/social/Group 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/social/Group 2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/social/Vector (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/AuthModal/AuthModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Card/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Card/Card.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Card/CardMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/CartModal/CartModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/CartModal/CartModal.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Loader/Loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Loader/loader.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Promo/Promo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Promo/promo.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/RestorauntMenu/RestorauntMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/RestorauntMenu/RestorauntMenu.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Restoraunts/Restoraunts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Restoraunts/Restoraunts.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI_Grid/Button/Button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI_Grid/Button/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI_Grid/Input/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI_Grid/Input/input.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HOC/Modal/Modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HOC/Modal/modal.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Main/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Main/Main.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Menu/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Menu/Menu.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReduxStore/actions/authAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReduxStore/actions/cartActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReduxStore/actions/restorantsAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReduxStore/reducers/AuthReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReduxStore/reducers/CartReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReduxStore/reducers/restourantsReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReduxStore/reducers/rootReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReduxStore/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cards_img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cards_img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cards_img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cards_img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cards_img/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cards_img/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cards_img/Vector.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cards_img_rest/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cards_img_rest/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cards_img_rest/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cards_img_rest/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cards_img_rest/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cards_img_rest/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/hotpng.com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/shopping-cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/shopping-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/social/Group 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/social/Group 2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/social/Vector (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/utils/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aG3WkIFHZnsRmAauPOHm7DZrbG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\portfolio\food_delivery_react\src\HOC" />
+      <recent name="G:\portfolio\food_delivery_react\src\Components\" />
+      <recent name="G:\portfolio\food_delivery_react\src\Pages" />
+      <recent name="G:\portfolio\food_delivery_react\src\Components\UI\Button" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\portfolio\food_delivery_react\src\ReduxStore\reducers" />
+      <recent name="G:\portfolio\food_delivery_react\public" />
+      <recent name="G:\portfolio\food_delivery_react\src" />
+      <recent name="G:\portfolio\food_delivery_react\src\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,10 +169,29 @@
       <option name="presentableId" value="Default" />
       <updated>1586348136835</updated>
       <workItem from="1586348137902" duration="111000" />
+      <workItem from="1586348292844" duration="5382000" />
+      <workItem from="1586511117805" duration="13819000" />
+      <workItem from="1586619771069" duration="4166000" />
+      <workItem from="1586673147009" duration="21702000" />
+      <workItem from="1586763343155" duration="31039000" />
+      <workItem from="1586859130819" duration="10753000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

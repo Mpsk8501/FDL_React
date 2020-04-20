@@ -1,0 +1,138 @@
+.card{
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  flex-basis: 31%;
+  image{
+    width: 384px;
+    height: 250px;
+    object-fit: cover;
+
+  }
+  .text{
+    padding: 20px 24px 35px;
+  }
+  .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .title{
+    margin: 0;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+  }
+  .heading span{
+    background-color:  #262626;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 2px;
+    padding: 1px 8px;
+  }
+  .info{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .rating{
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+    color: #FFC107
+  }
+  .price,.category{
+    color: #8C8C8C;
+  }
+  .category{
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .price:after{
+    vertical-align: middle;
+    margin: 0 10px 3px;
+    content: "";
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color:#8C8C8C;;
+  }
+  .rating:before{
+    content: url('../../img/cards_img/Vector.svg');
+    margin-right: 7px;
+    display: inline-block;
+  }
+}
+
+
+.card2{
+  img{
+    max-width: 100%;
+  }
+  .title{
+    font-weight: 400;
+  }
+  .ingredients{
+    font-size: 18px;
+    line-height: 21px;
+    color: #8C8C8C
+  }
+  .cart{
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+  }
+  .itemPrice{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 32px;
+  }
+}
+
+
+@media (max-width: 992px) {
+
+  .card{
+    flex-basis: 49%;
+  }
+
+}
+@media (max-width: 768px) {
+
+  .info{
+    flex-wrap: wrap;
+  }
+  .rating{
+    flex-basis: 100%;
+  }
+  .title{
+    font-size: 18px;
+  }
+
+
+
+}
+
+@media (max-width: 578px) {
+
+
+
+  .card{
+    flex-basis: 100%;
+    max-width: 384px;
+  }
+
+
+}
+

@@ -1,0 +1,74 @@
+.promo{
+
+  height: 300px;
+  box-shadow: 0 7px 12px rgba(158, 158, 163, 0.1);
+  background: #FFF1B8 url('../../img/hotpng.com.png')   no-repeat top -350px  right -350px/900px;
+  border-radius: 10px;
+  padding: 68px 70px;
+  margin-bottom: 56px;
+
+  .title{
+    font-size: 2em;
+    margin: 0.67em 0;
+    font-weight: bold;
+  }
+  .text{
+    font-size: 24px;
+    line-height: 28px;
+    max-width: 540px;
+    color: #302C34
+  }
+}
+
+
+@media (max-width: 1366px) {
+
+  .promo{
+    background-size: 780px;
+  }
+
+}
+@media (max-width: 992px) {
+  .promo {
+    padding: 50px;
+    background-size: 500px;
+    background-position: center right -250px;
+    .text{
+      font-size: 18px;
+      max-width: 400px;
+    }
+  }
+
+
+}
+@media (max-width: 768px) {
+
+  .promo{
+    height: auto;
+    padding: 30px;
+    background-size: 400px;
+    background-position: center right -250px;
+  }
+
+}
+
+@media (max-width: 578px) {
+
+
+  .promo {
+    background-image:none ;
+    padding: 25px;
+    .title{
+      margin-top: 10px;
+      font-size: 24px;
+    }
+    .text{
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+
+  }
+
+
+}

@@ -1,0 +1,40 @@
+.button{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 16px;
+  background: #fff;
+  border: 1px solid #D9D9D9;
+  box-shadow: 0 0 2px rgba(0,0,0, 0.0015);
+  border-radius: 3px;
+  color: #595959;
+  font-size: 16px;
+  line-height: 24px;
+  min-width: max-content;
+
+}
+
+.primary{
+  background: #1890FF;
+  color: #ffffff;
+}
+
+.inCart{
+  background-color: #00d000;
+    white-space: nowrap;
+    max-width: 131px;
+
+}
+
+.after{
+  margin-left: 8px;
+}
+
+@media (max-width: 480px) {
+  .button span{
+    display: none;
+  }
+  .after{
+    margin-left: 0;
+  }
+}
