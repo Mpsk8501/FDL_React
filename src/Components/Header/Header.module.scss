@@ -26,11 +26,15 @@
   justify-content: space-between;
   img{
     cursor: pointer;
+    &:hover{
+      transition: transform .4s;
+      transform: scale(1.05);
+    }
   }
   input{
     padding-left: 35px;
     flex:0.8;
-    background-image: url(/img/home.svg);
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/fooddelivery-305b0.appspot.com/o/img%2Fhome.svg?alt=media&token=66064847-4a4c-45df-b8cd-f5a2bc1203ee");
   }
   .block{
     display: flex;

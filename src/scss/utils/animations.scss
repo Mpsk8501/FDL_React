@@ -1,0 +1,27 @@
+.card-enter{
+  opacity: 0;
+
+  transform: translateY(-100px);
+}
+.card-enter-active{
+  opacity: 1;
+  transform: translateY(0px);
+  transition: opacity 400ms,transform 400ms ;
+
+}
+.card-enter-done{
+
+}
+.card-exit{
+  opacity: 1;
+
+}
+.card-exit-active{
+  transition: opacity 400ms,transform 400ms ;
+  opacity: 0;
+  transform: translateY(-100px);
+}
+
+.card-exit-done{
+
+}

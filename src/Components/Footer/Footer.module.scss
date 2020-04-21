@@ -4,6 +4,10 @@
   height: 157px;
   .logo{
     cursor: pointer;
+    &:hover{
+      transition: transform .4s;
+      transform: scale(1.05);
+    }
   }
 
   .block{
@@ -13,10 +17,17 @@
   }
 
   .link{
+    display: inline-block;
     font-size: 18px;
     line-height: 21px;
     color: #595959;
     text-decoration: none;
+    border-bottom: 1px solid transparent;
+
+    &:hover{
+      transition: border-bottom-color .4s;
+      border-bottom: 1px solid navy;
+    }
   }
   .link:not(:last-of-type){
     margin-right: 15px;
@@ -28,6 +39,12 @@
   .socialLinks{
     display: flex;
     align-items: center;
+    a{
+      &:hover{
+        transition: transform .4s;
+        transform: scale(1.1);
+      }
+    }
   }
 
   .socialLinks a:not(:last-of-type){
@@ -50,6 +67,10 @@
 }
 
 @media (max-width: 578px) {
+  .nav{
+    display: flex;
+    flex-direction: column;
+  }
   .logo{
     margin-right: 15px;
     order: 1;
@@ -67,7 +88,21 @@
 @media (max-width: 480px) {
   .block{
     flex-wrap: wrap;
+    flex-direction: column;
+
   }
+  .logo{
+    order: 0;
+    margin-bottom: 20px;
+  }
+  .footer{
+    .nav{
+      margin-right: 30px;
+    }
+
+  }
+
+
   .socialLinks{
     margin: 15px 0;
   }

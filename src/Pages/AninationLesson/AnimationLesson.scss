@@ -1,5 +1,5 @@
 .animation{
-  min-height: 100vh;
+  min-height: 500px;
   .container {
     max-width: 1000px;
     margin: 100px auto;
@@ -43,6 +43,35 @@
   .square.orange {
     background: coral;
   }
+
+}
+
+.os-enter{
+  opacity: 0;
+
+  transform: translateY(-100px);
+}
+.os-enter-active{
+  transition: opacity 750ms,transform 750ms ;
+  opacity: 1;
+  transform: translateY(0px);
+
+}
+.os-enter-done{
+  transition: none;
+}
+.os-exit{
+  opacity: 1;
+  transition: opacity 750ms,transform 750ms ;
+
+}
+.os-exit-active{
+
+  opacity: 0;
+  transform: translateY(-100px);
+}
+
+.os-exit-done{
 
 }
 

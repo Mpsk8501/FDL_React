@@ -5,12 +5,25 @@
   overflow: hidden;
   margin-bottom: 30px;
   flex-basis: 31%;
+  border: 1px solid transparent;
+  cursor: pointer;
+  button{
+    opacity: 0.8;
+  }
+  &:hover{
+    transition: border .4s;
+    border: 1px solid navy;
+    .image{
+      transform: scale(1.05);
+      transition: transform .4s;
+    }
+  }
   image{
     width: 384px;
     height: 250px;
     object-fit: cover;
+    }
 
-  }
   .text{
     padding: 20px 24px 35px;
   }
@@ -67,7 +80,7 @@
     background-color:#8C8C8C;;
   }
   .rating:before{
-    content: url('../../img/cards_img/Vector.svg');
+    content: url('https://firebasestorage.googleapis.com/v0/b/fooddelivery-305b0.appspot.com/o/img%2Fcards_img%2FVector.svg?alt=media&token=7253e96a-6176-422c-82a7-7bd0284d45fc');
     margin-right: 7px;
     display: inline-block;
   }
@@ -75,6 +88,7 @@
 
 
 .card2{
+  cursor: auto;
   img{
     max-width: 100%;
   }

@@ -1,0 +1,51 @@
+.adminOrders{
+  h2{
+    font-size: 32px;
+  }
+  h3{
+    font-size: 24px;
+  }
+  .orderCards{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+
+    .orderCard{
+      background-color: #f4f4f4;
+      padding: 20px;
+      border: 1px solid darkblue;
+      margin: 10px auto;
+      width: 100%;
+      .title{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+      }
+      .body{
+        display: flex;
+        flex-direction: column;
+        .item{
+          margin-bottom: 10px;
+          font-size: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          div:not(:last-child){
+            max-width: 20%;
+          }
+          image{
+            max-width: 150px;
+          }
+        }
+        .total{
+          font-size: 24px;
+          font-weight: bold;
+          display: flex;
+          width: 100%;
+          justify-content: flex-end;
+        }
+      }
+    }
+  }
+}
